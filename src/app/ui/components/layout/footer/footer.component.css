@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+  # Common
+  --------------------------------------------------------------*/
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    margin-left: 360px;
+    padding: 0px;
+}
+.row,.col,.p,.img,.col-3{
+    margin: 0px;
+    padding: 0px !important;
+}
+.col-3{
+    padding: 0px;
+}
+/*--------------------------------------------------------------
+  # Section 1
+  --------------------------------------------------------------*/
+.circleShape{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 27px;
+    margin-bottom: 40px;
+}
+.p1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(54, 50, 50);
+}
+.p2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(146, 146, 146);
+}
+
+.text1div{
+    margin-top: 32px;
+    margin-left: 16px;
+    height: 56px;
+}
+/*--------------------------------------------------------------
+  # Section 2
+  --------------------------------------------------------------*/
+.Section2{
+    height: 408px;
+    background-color: rgb(243, 243, 243);
+}
+.Section2>.container>.row>.col-3 {
+    margin-top: 90px;
+}
+.bracket{
+    width: 34px;
+    height: 3px;
+    background-color: rgb(14, 71, 156);
+}
+.bracket2{
+    width: 282px;
+    height: 1px;
+    background-color: rgb(217, 217, 217);
+}
+.text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    padding: 0px;
+}
+.text:hover{
+    color: rgb(14, 71, 156);
+    text-decoration: underline;
+}
+.text2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgb(14, 71, 156);
+}
+.icon{
+    width: 26px;
+    height: 26px;
+}
+.icon2{
+    width: 24px;
+    height: 24px;
+}
+.icon3{
+    width: 32px;
+    height: 32px;
+}
+/*--------------------------------------------------------------
+  # Section 3
+  --------------------------------------------------------------*/
+.Section3{
+    height: 54px;
+    background-color: rgb(14, 71, 156);
+}
+
+.Section3>.container{
+    height: 54px;
+}
+
+.icon4{
+    width: 58px;
+    height: 22px;
+    margin-right: 20px;
+}
+.icon5{
+    width: 48px;
+    height: 30px;
+}
+.text3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    width: 532px;
+    height: 22px;
+    margin-left: 12px;
+}
+.text4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*--------------------------------------------------------------
+  # Section 4
+  --------------------------------------------------------------*/
+.logodiv{
+    height: 53px;
+}
+.logo{
+    margin-top: 32px;
+    overflow-y:hidden !important;
+}
+.wpDiv{
+    width: 40px;
+    height: 112px;
+    position: absolute;
+    left: 1569px;
+    top: 4439.16px;
+}
+.icon6{
+    width: 40px;
+    height: 40px;
+}

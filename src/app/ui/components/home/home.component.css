@@ -1,0 +1,1326 @@
+/*--------------------------------------------------------------
+  # Common
+  --------------------------------------------------------------*/
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    border: none;
+    margin-left: 360px;
+}
+
+/*--------------------------------------------------------------
+  # Section1
+  --------------------------------------------------------------*/
+.Section1 {
+    background-image: url("/assets/image/slider imageler.png") !important;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    color: #000;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 8px;
+    padding-left: 0px;
+    color: white;
+}
+
+.BusButton-Row {
+    margin: 0px;
+    height: 20px;
+    width: 89px;
+    margin-left: 24px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.BusButton {
+    width: 137px;
+    height: 48px;
+    border-radius: 6px;
+    color: rgb(14, 71, 156);
+    padding: 0px;
+    border: none;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    background-color: rgb(14, 71, 156);
+    --bs-btn-active-bg: none;
+    --bs-btn-hover-bg: none;
+
+
+}
+
+.BusbuttonText {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    width: 61px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+.PlaneButton,
+.FerryBoatButton {
+    width: 137px;
+    height: 48px;
+    border-radius: 6px;
+    color: rgb(14, 71, 156);
+    padding: 0px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.FerryBoatButton{
+    visibility: hidden;
+}
+
+.PlaneButton-Row {
+    width: 70px;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    
+}
+
+.PlanebuttonText {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    width: 42px;
+    height: 20px;
+    color: rgb(14, 71, 156);
+    padding-left: 0px;
+}
+
+.FerryBoatButton-Row {
+    width: 84px;
+    height: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.FerryBoatbuttonText {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    width: 56px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+.TicketProcess {
+    max-width: 486px;
+    height: 317px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 360px;
+}
+
+.TicketProcess .row .col {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+}
+.firstColumn{
+    width: 184px;
+    height: 217px;
+    margin-left: 24px;
+}
+.secondColumn{
+    width: 58px;
+    height: 100%;
+}
+.changeButton{
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    margin-top: 56px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-color: rgb(14, 71, 156);
+}
+.thirdColumn{
+    margin-right: 24px;
+}
+
+.textTicket {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(54, 50, 50);
+    margin-top: 24px;
+}
+.dropdown{
+    background-color: #ffffff;
+    stroke: 1px rgb(146, 146, 146);
+    width: 190px;
+    height: 40px;
+    color:  #ffffff;
+    margin-top: 6px;
+}
+.dropdown-toggle{
+    background-color: #ffffff;
+    stroke:rgb(146, 146, 146);
+    stroke-width: 1px;
+    width: 190px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 40px;
+    color: rgb(146, 146, 146);
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-bg: none;
+    text-align: start;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdownIcon{
+    margin-left: 48px;
+}
+.dropdownIcon2{
+    margin-left: 100px;
+}
+.write {
+    max-width: 590px;
+    padding-left: 70px;
+}
+
+.imageWrite1 {
+    max-width: 517px;
+    height: 60px;
+    margin-top: 80px;
+    font-size: 52px;
+    line-height: 60px;
+    color: #ffffff;
+    align-items: top;
+}
+
+.part1 {
+    font-weight: 600;
+}
+
+.part2 {
+    font-weight: 300;
+}
+
+.part3 {
+    font-weight: 400;
+}
+
+.imageWrite2 {
+    width: 477px;
+    height: 48px;
+    margin-top: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    align-items: top;
+    color: #ffffff;
+}
+
+.part4 {
+    font-weight: 300;
+}
+
+.part5 {
+    font-weight: 600;
+}
+
+.part6 {
+    font-weight: 300;
+}
+.BanbibiletFind{
+    width: 486px;
+    height: 60px;
+    background-color: green;
+    border: none;
+    position: absolute;
+    top: 565px;
+    left: 360px;
+    padding: 0px;
+}
+.circleShape{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: 27px;
+    background-color: #ffffff;
+}
+.findText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 8px;
+    margin-left: 14px;
+}
+.findText2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 8px;
+
+}
+
+/*--------------------------------------------------------------
+  # Section2
+  --------------------------------------------------------------*/
+
+.Section2 {
+    height: 217px;
+    background-color: rgb(243, 243, 243);
+}
+
+.Section2item {
+    margin-left: 360px;
+    max-width: 1200px;
+}
+
+.iconTimer {
+    padding-left: 116px;
+    padding-top: 42px;
+}
+
+.iconLock {
+    padding-left: 122px;
+    padding-top: 42px;
+}
+
+.iconRefresh {
+    padding-left: 128px;
+    padding-top: 42px;
+}
+
+.iconWelness {
+    padding-left: 136px;
+    padding-top: 42px;
+}
+
+.title1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 73px;
+    color: rgb(77, 77, 77);
+}
+
+.title2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 87px;
+    color: rgb(77, 77, 77);
+}
+
+.title3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 96px;
+    color: rgb(77, 77, 77);
+}
+
+.title4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 91px;
+    color: rgb(77, 77, 77);
+}
+
+.writing {
+    margin-top: 8px;
+    height: 63px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.writing1 {
+    margin-left: 28px;
+    width: 225px;
+    height: 63px;
+}
+
+.writing2 {
+    margin-left: 53px;
+    width: 188px;
+    height: 63px;
+}
+
+.writing3 {
+    margin-left: 63px;
+    width: 179px;
+    height: 63px;
+}
+
+.writing4 {
+    margin-left: 43px;
+    width: 234px;
+    height: 63px;
+}
+
+.imageWoman {
+    position: absolute;
+    top:476px;
+    left: 1488px;
+}
+
+.plus {
+    max-width: 153px;
+    height: 166px;
+    margin-top: 10px;
+    margin-left: 207px;
+    background-color: white;
+}
+
+.PlusTable{
+    width: 153px;
+    height: 166px;
+}
+.PlusTable>tr>td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    border-collapse: collapse;
+    color: rgb(210, 210, 210);
+}
+.col1 {
+    width: 13px;
+    height: 26px;
+    padding-right: 22px;
+    padding-bottom: 9px;
+}
+.PlusTable>tr>.plus1 {
+    color: rgb(255, 113, 82);
+}
+.PlusTable>tr>.plus2 {
+    background-color: rgb(14, 71, 156);
+}
+
+
+.shape {
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+  # Section3
+  --------------------------------------------------------------*/
+
+.write1Section3 {
+    width: 367px;
+    height: 86px;
+    margin-top: 44px;
+    margin-bottom: 6px;
+}
+
+.text1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgb(54, 50, 50);
+    width: 367px;
+    margin-bottom: 8px;
+
+}
+
+.text2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(54, 50, 50);
+}
+
+.write2Section3 {
+
+    margin-left: 593px;
+    margin-top: 114px;
+    width: 207px;
+    height: 22px;
+}
+
+.text3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(77, 77, 77);
+
+}
+
+.icon1Section3 {
+    width: 20px;
+    height: 19.82px;
+    margin-left: 8px;
+    margin-top: 100px;
+}
+
+.BusButtonSection3 {
+    width: 154px;
+    height: 96px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.BusButton2Section3 {
+    width: 154px;
+    height: 96px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.Section3button {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.ButtonKamil {
+    margin-top: 19px;
+    margin-bottom: 24px;
+    margin-left: 13px;
+    margin-right: 7px;
+}
+
+.ButtonAdana {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    margin-left: 16px;
+    margin-right: 15px;
+}
+
+.ButtonEfe {
+    margin-top: 20px;
+    margin-bottom: 21px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ButtonNevs {
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+.ButtonUlu {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.ButtonAs {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 16px;
+}
+
+.ButtonRota {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    margin-left: 21px;
+    margin-right: 19px;
+}
+
+.write3Section3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    margin-top: 183px;
+    width: 135px;
+    height: 24px;
+}
+
+.SliderButton1 {
+    width: 36px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 306px;
+    margin-right: 58px;
+}
+
+.write4Section3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(54, 50, 50);
+    margin-left: 34px;
+    margin-top: 8px;
+    margin-right: 34px;
+}
+
+.SliderButton2 {
+    width: 36px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 58px;
+}
+
+
+/* .imageSection3{
+    width: 282px;
+    height: 287px;
+    margin-top: 49px;
+    overflow: hidden;
+} */
+.img1 {
+    width: 282px;
+    height: 287px;
+    margin-top: 39px;
+    margin-right: 18px;
+}
+
+.imageItem1 {
+    object-position: -80px 0px;
+}
+
+.img2 {
+    width: 282px;
+    height: 287px;
+    margin-top: 39px;
+    overflow: hidden;
+    margin-left: 6px;
+    margin-right: 12px;
+}
+
+.imageItem2 {
+    object-position: -80px 0px;
+}
+
+.img3 {
+    width: 282px;
+    height: 287px;
+    margin-top: 39px;
+    overflow: hidden;
+    margin-left: 12px;
+    margin-right: 6px;
+}
+
+.imageItem3 {
+    object-position: -80px 0px;
+}
+
+.img4 {
+    width: 282px;
+    height: 287px;
+    margin-top: 39px;
+    overflow: hidden;
+    margin-left: 18px;
+    z-index: 1;
+}
+
+.imageItem4 {
+    object-position: -80px 0px;
+}
+
+/* Tatil Paket Bilgileri */
+.ColPacket1 {
+    width: 282px;
+    height: 197px;
+    position: absolute;
+    top: 1840px;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+}
+
+.text1Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(14, 71, 156);
+    line-height: 24px;
+    width: 207px;
+    height: 42px;
+    padding-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-right: 61px;
+}
+
+.icon1Packet {
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 14px;
+}
+
+.text2Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+    line-height: 22px;
+    width: 150px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 90px;
+}
+
+.icon2Packet {
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+    margin-left: 14px;
+}
+
+.text3Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+    line-height: 22px;
+    width: 101px;
+    height: 24px;
+    margin-top: 16px;
+    margin-bottom: 139px;
+    margin-left: 8px;
+}
+
+.icon3Packet {
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 14px;
+
+}
+
+.text4Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+    line-height: 22px;
+    width: 93px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.text5Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(14, 71, 156);
+    width: 86px;
+    height: 27px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-left: 44px;
+    margin-right: 14px;
+}
+
+.PacketShape {
+    width: 121px;
+    height: 318px;
+    position: absolute;
+    top: 1636px;
+    left: 1517px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.ColPacket2 {
+    width: 282px;
+    height: 197px;
+    position: absolute;
+    top: 1840px;
+    left: 666px;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+}
+
+.text6Packet {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(14, 71, 156);
+    line-height: 24px;
+    width: 254px;
+    height: 42px;
+    padding-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-right: 61px;
+}
+
+.ColPacket3 {
+    width: 282px;
+    height: 197px;
+    position: absolute;
+    top: 1840px;
+    left: 972px;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+}
+
+.ColPacket4 {
+    width: 282px;
+    height: 197px;
+    position: absolute;
+    top: 1840px;
+    left: 1278px;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+    z-index: 1;
+}
+
+.packetButton {
+    width: 180px;
+    height: 47px;
+    border-radius: 200px;
+    border: none;
+    background-color: rgb(54, 50, 50);
+    margin-left: 51px;
+    margin-right: 51px;
+    margin-top: 10px;
+}
+
+.buttonText {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.slider {
+    width: 134px;
+    height: 14px;
+    margin-top: 244px;
+    margin-left: 533px;
+}
+
+.sliderButton {
+    width: 14px;
+    height: 14px;
+    border: none;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 0px;
+}
+
+.slidercol {
+    max-width: 14px;
+    max-height: 14px;
+    margin-right: 16px;
+}
+
+.slidercollast {
+    max-width: 14px;
+    max-height: 14px;
+}
+
+.sliderimg {
+    vertical-align: top;
+}
+
+/*--------------------------------------------------------------
+  # Section4
+  --------------------------------------------------------------*/
+
+.Section4 {
+    height: 619px;
+    margin-top: 229px;
+}
+
+.text1Section4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(167, 167, 167);
+}
+
+.text2Section4div {
+    width: 548px;
+    height: 106px;
+    margin-top: 16px;
+}
+
+.text2Section4 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: rgb(54, 50, 50);
+}
+
+.text3Section4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: rgb(54, 50, 50);
+}
+
+.shape1Section4 {
+    width: 47px;
+    height: 48px;
+    background-color: rgb(240, 187, 31);
+    border-radius: 13px;
+    margin-top: 59px;
+}
+
+.icon1Section4 {
+    margin-top: 14px;
+}
+
+.text4Section4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(77, 77, 77);
+    margin-top: 55px;
+    margin-left: 21px;
+}
+
+.text5Section4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(146, 146, 146);
+    margin-left: 21px;
+    height: 46px;
+    width: 445px;
+}
+
+.shape2Section4 {
+    width: 47px;
+    height: 48px;
+    background-color: rgb(241, 90, 43);
+    border-radius: 13px;
+    margin-top: 46px;
+}
+
+.icon2Section4 {
+    margin-top: 14px;
+}
+
+.text6Section4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(77, 77, 77);
+    margin-top: 42px;
+    margin-left: 21px;
+}
+
+.text7Section4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(146, 146, 146);
+    margin-left: 21px;
+    height: 46px;
+    width: 343px;
+}
+
+.shape3Section4 {
+    width: 47px;
+    height: 48px;
+    background-color: rgb(0, 99, 128);
+    border-radius: 13px;
+    margin-top: 46px;
+}
+
+.icon3Section4 {
+    margin-top: 10px;
+}
+
+.text8Section4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(77, 77, 77);
+    margin-top: 42px;
+    margin-left: 21px;
+}
+
+.text9Section4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(146, 146, 146);
+    margin-left: 21px;
+    height: 46px;
+    width: 418px;
+    margin-top: 1px;
+}
+
+.imgAppStore,
+.imgGoogle {
+    margin-top: 47px;
+}
+
+.designShape {
+    width: 1920px;
+    height: 619.8px;
+    position: absolute;
+    top: 2256px;
+    left: 7px;
+    z-index: -1;
+}
+
+.imgTel1Border {
+    width: 117.7px;
+    height: 255.35px;
+    position: absolute;
+    top: 2276.9px;
+    left: 1363.71px;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+    z-index: 4;
+
+}
+
+.imgTel1Mockup {
+    width: 117.81px;
+    height: 255.4px;
+    position: absolute;
+    top: 2276.82px;
+    left: 1363.57px;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+    color: rgb(226, 246, 215);
+    z-index: 3;
+}
+
+.imgTel1Device {
+    width: 133.42px;
+    height: 270.19px;
+    position: absolute;
+    top: 2269.41px;
+    left: 1355.63px;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+    z-index: 2;
+}
+
+.imgTel1Object {
+    width: 152.01px;
+    height: 282.93px;
+    position: absolute;
+    top: 2279.68px;
+    left: 1346.18px;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+    z-index: 1;
+}
+
+.imgTel2Border {
+    width: 117.7px;
+    height: 255.35px;
+    position: absolute;
+    top: 2476.94px;
+    left: 1162.62px;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+    z-index: 4;
+}
+
+.imgTel2Mockup {
+    width: 117.81px;
+    height: 255.4px;
+    position: absolute;
+    top: 2476.87px;
+    left: 1162.48px;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+    color: rgb(226, 246, 215);
+    z-index: 3;
+}
+
+.imgTel2Device {
+    width: 133.42px;
+    height: 270.19px;
+    position: absolute;
+    top: 2469.45px;
+    left: 1154.55px;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+    z-index: 2;
+}
+
+.imgTel2Object {
+    width: 152.01px;
+    height: 282.93px;
+    position: absolute;
+    top: 2480.12px;
+    left: 1144.55px;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+    z-index: 1;
+}
+
+.imgTel3Border {
+    width: 117.7px;
+    height: 255.35px;
+    position: absolute;
+    top: 2508.99px;
+    left: 1337.07px;
+    z-index: 4;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+
+}
+
+.imgTel3Mockup {
+    width: 117.81px;
+    height: 255.4px;
+    position: absolute;
+    top: 2508.91px;
+    left: 1336.93px;
+    z-index: 3;
+    transform: rotate(45deg);
+    stroke: rgb(196, 209, 215, 0.38);
+    color: rgb(226, 246, 215);
+}
+
+.imgTel3Device {
+    width: 133.42px;
+    height: 270.19px;
+    position: absolute;
+    top: 2501.49px;
+    left: 1328.99px;
+    z-index: 2;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+}
+
+.imgTel3Object {
+    width: 152.01px;
+    height: 282.93px;
+    position: absolute;
+    top: 2512.5px;
+    left: 1319.33px;
+    z-index: 1;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+}
+
+.imgTel4Border {
+    width: 154.61px;
+    height: 291.09px;
+    position: absolute;
+    top: 2705.87px;
+    left: 1116.28px;
+    z-index: 1;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+}
+
+.imgTel5Border {
+    width: 155.09px;
+    height: 288.62px;
+    position: absolute;
+    top: 2686.4px;
+    left: 1344.14px;
+    z-index: 1;
+    transform: rotate(45deg);
+    color: rgb(13, 13, 13);
+    color: rgb(226, 246, 215);
+
+}
+
+/*--------------------------------------------------------------
+  # Section5
+  --------------------------------------------------------------*/
+
+.text1Section5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(54, 50, 50);
+    margin-top: 123px;
+    margin-left: 450px;
+    width: 289px;
+    height: 32px;
+}
+
+.ButtonSection5 {
+    width: 384px;
+    height: 98px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 0px;
+    border-style: solid;
+    stroke-width: 1px;
+    border-color: rgb(217, 217, 217);
+    margin-top: 24px;
+    text-align: left;
+}
+
+.ButtonSection5:hover {
+    border-color: rgb(14, 71, 156);
+}
+
+.text2Section5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(77, 77, 77);
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.text3Section5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(77, 77, 77);
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.tex4Section5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgb(14, 71, 156);
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+.tex5Section5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(77, 77, 77);
+    margin-bottom: 20px;
+}
+
+.iconTL {
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+}
+
+.iconBack {
+    width: 16px;
+    height: 16px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.text6Section5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(54, 50, 50);
+    margin-top: 80px;
+}
+
+.CityButton {
+    width: 113px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    padding: 0px;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border: none;
+    color: rgb(77, 77, 77);
+}
+
+.CityButton:hover {
+    width: 137px;
+    background-color: rgb(14, 71, 156);
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdiv {
+    height: 276px;
+    margin-top: 24px;
+}
+
+.text7Section5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(54, 50, 50);
+    margin-top: 80px;
+}
+
+.text8Section5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(54, 50, 50);
+    text-align: left;
+}
+
+.text9Section5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgb(54, 50, 50);
+}
+
+.p1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(14, 71, 156);
+    margin: 0px;
+    padding: 0px;
+}
+
+.bracket {
+    height: 63.84px;
+    margin-top: 20px;
+    border-top: 1px solid;
+    border-color: rgb(217, 217, 217);
+}

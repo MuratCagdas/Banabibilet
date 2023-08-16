@@ -1,0 +1,80 @@
+#headerbg{
+    height: 5px;
+    background-color: rgb(14, 71, 156);
+}
+
+.container{
+    height: 108px;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 0px;
+    border: none;
+    margin-left: 360px;
+}
+
+.navbar {
+    padding: 0px;
+}
+.logo{  
+    margin-right: 194px;
+    height: 108px;
+}
+.logo img{
+    padding-top: 36px;
+}
+.nav-item .nav{
+    padding-top: 45px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(54, 50, 50);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.collapse{
+    height: 108px;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+    padding-top: 43px;
+    margin-right: 8px;
+}
+.bracket{
+    color: rgb(217, 217, 217);
+    height: 22px;
+    width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 43px;
+} 
+.contact{
+    color: rgb(146, 146, 146);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 12px;
+    padding-top: 32px;
+}
+.contact-icon{
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+    padding-left: 0px;
+
+}
+.contact-number{
+    color: rgb(14, 71, 156);
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 113px;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 24px;
+}
+.row{
+    margin: 0px;
+}
+
